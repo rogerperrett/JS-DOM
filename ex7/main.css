@@ -1,4 +1,4 @@
-#section-header {
+#sectionheader {
     background-color: blue;
     color: white;
     padding: 5px;
@@ -12,4 +12,9 @@
 
 #section {
     padding: 5px;
+    height: 150px;
+	overflow: hidden;
+	-moz-transition:all .5s linear;
+	-o-transition:all .5s linear;
+	transition:all .5s linear;
 }

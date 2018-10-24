@@ -5,3 +5,11 @@
     BONUS) Add a functioning "delete" button to each task (HINT: use the keyword "this" in your delete button's click listener! Console log "this" to see what value it holds)
     SUPER BONUS) Make each task editable
 */
+// Create a "close" button and append it to each list item
+function todoList () {
+  var	item = document.getElementById('todoInput').value
+  var text = document.createTextNode(item)
+  var newItem = document.createElement('li')
+  newItem.appendChild(text)
+  document.getElementById('todoList').appendChild(newItem)
+}
